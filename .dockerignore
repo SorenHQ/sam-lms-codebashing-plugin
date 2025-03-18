@@ -1,0 +1,11 @@
+.git
+.gitignore
+.env
+*.pyc
+__pycache__
+.pytest_cache
+venv/
+.vscode/
+*.md
+!README.md
+my-notes.txt
