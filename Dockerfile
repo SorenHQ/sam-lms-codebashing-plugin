@@ -42,7 +42,7 @@ USER appuser
 ENV PATH="/opt/venv/bin:$PATH"
 
 # Expose the port for Uvicorn
-EXPOSE 8000
+EXPOSE 80
 
 # Command to run the application
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80"]
