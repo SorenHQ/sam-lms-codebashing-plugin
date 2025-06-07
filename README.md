@@ -110,8 +110,8 @@ uvicorn src.main:app --reload
 ### API Documentation
 FastAPI provides automatic interactive API documentation:
 
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
+- Swagger UI: http://localhost:80/docs
+- ReDoc: http://localhost:80/redoc
 
 ## Contributing
 1. Fork the repository
